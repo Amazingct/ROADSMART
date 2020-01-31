@@ -5,7 +5,7 @@ import cv2 as cv
 import struct
 import pickle
 # load model
-model = keras.models.load_model("/home/amazing/Desktop/ROADSMART/main/AI_car_model.h5")
+model = keras.models.load_model("MODEL PATH HERE")
 img_size = 70
 categories2 = ["forward", "stop", "right", "left"]
 categories = ['w', 's', 'd', 'a']
