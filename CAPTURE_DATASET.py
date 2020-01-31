@@ -29,7 +29,7 @@ print("connected to AI CAR")
 def capture_data(direction_key, snapshot):
     # sub folder for picture to be stored
     sub_directory = categories[direction_command.index(direction_key)]
-    data_dir = "/home/amazing/Desktop/ROADSMART/dataset/" + sub_directory
+    data_dir = "DATASET DIRECTORY HERE" + sub_directory
     image_name = str(time.time()) + ".jpg"
     print(data_dir+image_name)
     os.chdir(data_dir)
