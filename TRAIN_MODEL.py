@@ -10,7 +10,7 @@ import random
 
 img_size = 70
 categories = ["forward", "stop", "right", "left"]
-data_dir = "/home/amazing/Desktop/ROADSMART/dataset"
+data_dir = "DATASET folder PATH"
 training_data = []
 
 #
